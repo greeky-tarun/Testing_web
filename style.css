@@ -11,7 +11,7 @@ body {
     height: 100%;
 }
 
-#mici{
+#mici {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
     width: 15px;
     height: 15px;
@@ -19,15 +19,15 @@ body {
     background-color: white;
     position: absolute;
     z-index: 99999;
-    
+
 }
 
-.bounding{
+.bounding {
     width: fit-content;
     overflow: hidden;
 }
 
-.bounding .boundingelem{
+.bounding .boundingelem {
     margin-left: 100px;
     transform: translateY(100%);
 }
@@ -88,7 +88,7 @@ body {
     font-weight: bold;
 }
 
-#nav h4{
+#nav h4 {
     margin-left: 10px;
 }
 
@@ -109,6 +109,10 @@ body {
 #heading #secondh1 {
     margin-left: 230px;
 }
+
+/*  */
+
+/*  */
 
 .blocktext {
     display: flex;
@@ -208,7 +212,7 @@ body {
     border-bottom: 1px solid #888;
 }
 
-.elem img{
+.elem img {
     opacity: 0;
     pointer-events: none;
     height: 140%;
@@ -217,7 +221,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#about{
+#about {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
@@ -230,27 +234,29 @@ body {
     width: 100%;
 }
 
-#textabout{
+#textabout {
     width: 30rem;
 }
 
-#textabout h5{
+#textabout h5 {
     text-transform: uppercase;
     opacity: .7;
     margin-bottom: 10px;
 }
 
-#textabout p{
-    font-size: 1.2vw ;
+#textabout p {
+    font-size: 1.2vw;
     line-height: 1.7;
     margin-bottom: 30px;
 }
 
-#about img{
+#about img {
     width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
-#textabout a{
+#textabout a {
     padding: 12px 22px;
     border: 1px solid white;
     border-radius: 100px;
@@ -259,25 +265,25 @@ body {
     text-decoration: none;
 }
 
-#subscribe{
+#subscribe {
     padding: 20px 30px;
     background-color: black;
     color: white;
     padding-bottom: 8vw;
 }
 
-#subscribe h5{
+#subscribe h5 {
     text-transform: uppercase;
     opacity: .6;
 }
 
-#subscribe h3{
+#subscribe h3 {
     text-transform: uppercase;
     margin-top: 10px;
     font-size: 14px;
 }
 
-#footer{
+#footer {
     background-color: black;
     color: white;
     display: flex;
@@ -286,17 +292,17 @@ body {
     padding: 40px 30px;
 }
 
-#footerleft{
+#footerleft {
     display: flex;
     gap: 20px;
 }
 
-#footerright{
+#footerright {
     display: flex;
     gap: 30px;
 }
 
-#footer a{
+#footer a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
